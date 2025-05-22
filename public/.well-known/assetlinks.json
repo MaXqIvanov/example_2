@@ -1,0 +1,12 @@
+[
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "tech.ndigital.bot.dev.twa",
+			"sha256_cert_fingerprints": [
+				"D2:85:F4:4E:D8:77:2D:C3:E7:D7:62:F5:F5:E6:4E:4F:29:27:B6:D2:20:85:38:58:91:E3:C4:EF:FD:BA:7B:FA"
+			]
+		}
+	}
+]

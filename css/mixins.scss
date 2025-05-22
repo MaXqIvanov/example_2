@@ -1,0 +1,132 @@
+// TYPOGRAPHY
+
+@mixin title-1 {
+	font-family: var(--font-family-main);
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 57.6px;
+}
+
+@mixin title-2 {
+	font-family: var(--font-family-main);
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 39.92px;
+}
+
+@mixin title-3 {
+	font-size: 27px;
+	line-height: 31.7px;
+	font-weight: 600;
+}
+
+@mixin title-4 {
+	font-family: var(--font-family-main);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 28.18px;
+}
+
+@mixin subtitle {
+	font-size: 19px;
+	line-height: 19px;
+	font-weight: 400;
+}
+
+@mixin subtitle-bold {
+	font-size: 19px;
+	line-height: 19px;
+	font-weight: 600;
+}
+
+@mixin body-1 {
+	font-family: var(--font-family-main);
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+@mixin body-1-bold {
+	font-family: var(--font-family-main);
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 22px;
+}
+
+@mixin body-2 {
+	font-family: var(--font-family-main);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+@mixin body-2-bold {
+	font-family: var(--font-family-main);
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 18px;
+}
+
+@mixin body-3 {
+	font-family: var(--font-family-main);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+@mixin body-3-bold {
+	font-family: var(--font-family-main);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 16px;
+}
+
+@mixin body-4 {
+	font-family: var(--font-family-main);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+@mixin body-4-bold {
+	font-family: var(--font-family-main);
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 14px;
+}
+
+@mixin body-5 {
+	font-family: var(--font-family-main);
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+}
+
+@mixin body-5-bold {
+	font-family: var(--font-family-main);
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 12px;
+}
+
+@mixin body-6 {
+	font-family: var(--font-family-main);
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 10px;
+}
+
+@mixin body-6-bold {
+	font-family: var(--font-family-main);
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 10px;
+}
+
+@mixin drag-and-drop-remove {
+	pointer-events: none; /*элемент не может стать объектом мыши*/
+	user-select: none; /*запрет на перенос текста*/
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}

@@ -1,0 +1,66 @@
+:root {
+	--font-family-main: 'Wix Madefor Display', 'Arial', sans-serif;
+	--btn-bg: unset;
+}
+
+[data-theme='dark'] {
+	--btn-bg: url('@/assets/svg/icon/button/btn-gold.svg');
+}
+
+$padding-container: 30px;
+$padding-container-default: 20px;
+$full-screen-min-height-auth: calc(100vh);
+$full-screen-min-height-default: calc(100vh);
+$card-vacancies-lg: 1500px;
+
+$laptop: 1600px;
+$xxl: 1400px;
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$extra-sm: 420px;
+
+// border-radius
+
+$br-0: 0px;
+$br-1: 4px;
+$br-2: 8px;
+$br-3: 12px;
+$br-4: 16px;
+$br-5: 20px;
+$br-6: 24px;
+$br-7: 28px;
+
+// paddings
+
+$p-0: 0px;
+$p-1: 4px;
+$p-2: 8px;
+$p-3: 12px;
+$p-4: 16px;
+$p-5: 20px;
+$p-6: 24px;
+$p-7: 28px;
+$p-8: 32px;
+
+//margins
+
+$m-0: 0px;
+$m-1: 5px;
+$m-2: 10px;
+$m-3: 15px;
+$m-4: 20px;
+$m-5: 25px;
+$m-6: 30px;
+
+//gaps
+
+$g-0: 0px;
+$g-1: 4px;
+$g-2: 8px;
+$g-3: 12px;
+$g-4: 16px;
+$g-5: 20px;
+$g-6: 24px;
+$g-7: 28px;
